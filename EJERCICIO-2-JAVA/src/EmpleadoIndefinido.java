@@ -22,7 +22,7 @@ class EmpleadoIndefinido extends Empleado {
         if (tieneVacaciones) {
             return super.darVacaciones();
         } else {
-            throw new IllegalArgumentException("no le corresponde vacaciones ");
+            throw Error("no le corresponde vacaciones ");
 
         }
     }

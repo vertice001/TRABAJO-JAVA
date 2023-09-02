@@ -24,7 +24,7 @@ class EmpleadoTemporal extends Empleado {
         if (tieneVacaciones) {
             return super.darVacaciones();
         } else {
-            throw error("no le corresponde vacaciones ");
+            throw Error("no le corresponde vacaciones ");
         }
     }
 }
